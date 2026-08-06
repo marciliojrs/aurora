@@ -1,0 +1,9 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# The example project is committed so the demo apps build with no extra tooling. Only per-user state
+# is ignored.
