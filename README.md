@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/logo-512.png" alt="Aurora" width="180">
+  <img src="Assets/logo-512.png" alt="Aurora" width="280">
 </p>
 
 # Aurora
@@ -11,6 +11,23 @@ light appearances.
 CardView()
     .aurora(.regular, in: .rounded(cornerRadius: 20))
 ```
+
+## See it
+
+<p align="center">
+  <img src="Assets/ex1.gif" alt="The regular preset sweeping the border of a card" width="440"><br>
+  <sub><code>.regular</code> — a band of light sweeps the whole border, with <code>showsBorder</code> tracing the edge it travels</sub>
+</p>
+
+<p align="center">
+  <img src="Assets/ex2.gif" alt="The underline preset lighting a focused text field" width="440"><br>
+  <sub><code>.underline</code> — the bottom edge only, bound to <code>@FocusState</code> so it lights while the field holds the caret</sub>
+</p>
+
+<p align="center">
+  <img src="Assets/ex3.gif" alt="The pulseOutward preset breathing a halo around a tile" width="270"><br>
+  <sub><code>.pulseOutward</code> — breathes past the bounds as an uncropped halo, here on a light appearance</sub>
+</p>
 
 ## Requirements
 
